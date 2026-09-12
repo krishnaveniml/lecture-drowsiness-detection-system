@@ -88,8 +88,19 @@ Circuit schematic of the Smart Classroom Drowsiness Detection System. The Arduin
 
 
 # Build Photos
-<img src="C:\Users\KRISHNA_VENI\OneDrive\Documents\IMG_20260912_065055.jpg.jpeg">
-Components shown 
+<img width="1872" height="4160" alt="IMG_20260912_065055 jpg" src="https://github.com/user-attachments/assets/8ffc23c7-4019-44d8-bfc4-36b6cc7673aa" />
+Arduino UNO: The main controller of the hardware system. It receives the classroom status from the Python program through serial communication and controls the LCD, LED, and buzzer according to the detected drowsiness level.
+16×2 I2C LCD: Displays the current classroom condition, such as “CLASS STATUS NORMAL”, “DROWSINESS ALERT!”, or “CLASS SUSPENDED!”. The I2C interface allows the LCD to communicate with the Arduino using fewer pins.
+Red LED: Acts as a visual warning indicator. It turns ON when the system detects a high level of classroom drowsiness or an alert condition.
+1 kΩ Resistor: Connected in series with the red LED to limit the current flowing through it and protect the LED from excessive current.
+Buzzer: Provides an audible warning when drowsiness crosses the defined threshold, helping to immediately attract attention in the classroom.
+Push Button: Can be used as a manual input/control component for the hardware system, depending on the programmed functionality.
+Breadboard: Provides a convenient platform for assembling and testing the circuit without soldering.
+Jumper Wires: Used to establish electrical connections between the Arduino, LCD, LED, buzzer, resistor, and power/ground rails.
+USB Cable: Connects the Arduino UNO to the computer, providing power and enabling serial communication between the Python drowsiness-detection program and the Arduino.
+
+
+
 
 ![Build](Add photos of build process here)
 *Explain the build steps*
