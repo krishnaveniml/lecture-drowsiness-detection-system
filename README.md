@@ -10,7 +10,7 @@
 
 
 ### Team Members
-- Team Lead: Neha Deepak - [College of Engineering Perumon ]
+- Member 1: Neha Deepak - [College of Engineering Perumon ]
 - Member 2: Krishnaveni M L- [College of Engineering Perumon]
 
 ### Project Description
