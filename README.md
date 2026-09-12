@@ -48,7 +48,8 @@ python cam_tst.py, python drowsiness_prob.py
 For Software:
 
 # Screenshots (Add at least 3)
-<img width="1872" height="4160" alt="IMG_20260912_065055 jpg" src="https://github.com/user-attachments/assets/90777e5b-f603-408d-b115-0e422da7dd7c" />
+<img width="1872" height="4160" alt="IMG_20260912_051304 jpg" src="https://github.com/user-attachments/assets/d87ef138-977a-4f6a-9ab4-ce51b9e28450" />
+
 
 
 The image demonstrates the real-time execution of a Smart Classroom Drowsiness Detection System using facial landmark mesh tracking, 
@@ -79,7 +80,7 @@ Hardware Response: The Arduino receives the alert signal over serial communicati
 For Hardware:
 
 # Schematic & Circuit
-![Circuit](Add your circuit diagram here)
+
 *Add caption explaining connections*
 
 ![Schematic](Add your schematic diagram here)
