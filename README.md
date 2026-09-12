@@ -2,54 +2,52 @@
 
 
 
-# [Project Name] 🎯
+# Lecture Drowsiness Detection System 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: PIXEL PUNKS
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Neha Deepak - [College of Engineering Perumon ]
+- Member 2: Krishnaveni M L- [College of Engineering Perumon]
 
 ### Project Description
-[2-3 lines about what your project does]
+A smart system that detects student drowsiness during lectures using OpenCV with real-time alerts.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+How can we stop students from accidentally completing their lecture by sleeping through it?
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+Solving the greatest unsolved problem in engineering: keeping students awake for one more slide.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- Python, ML
+- OpenCV, Arduino IDE, MediaPipe, 
+- OpenCV,Arduino IDE, MediaPipe, Numpy, LiquidCrystal I2C
+- ArduinoIDE, VS CODE, Serial Monitor
 
 For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- Arduino UNO
+- LCD 16x2 I2C
+- Buzzer, LED, Push Button, Jumper wires & Breadboard
 
 ### Implementation
-For Software:
+For Software:VS Code, Python3.12.10 , Arduino IDE
 # Installation
-[commands]
+python -m pip install --upgrade pip
+python -m pip install opencv-python mediapipe numpy scikit-learn pyserialpython --version
 
 # Run
-[commands]
+python cam_tst.py, python drowsiness_prob.py
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
 
 ![Screenshot2](Add screenshot 2 here with proper name)
 *Add caption explaining what this shows*
