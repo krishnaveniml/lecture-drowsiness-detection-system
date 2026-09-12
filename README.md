@@ -51,19 +51,20 @@ For Software:
 <img width="1872" height="4160" alt="IMG_20260912_065055 jpg" src="https://github.com/user-attachments/assets/90777e5b-f603-408d-b115-0e422da7dd7c" />
 
 
-<img src="C:\Users\KRISHNA_VENI\OneDrive\Documents\IMG_20260912_051304.jpg.jpeg">
 The image demonstrates the real-time execution of a Smart Classroom Drowsiness Detection System using facial landmark mesh tracking, 
 eye aspect ratio (EAR) analysis, and Arduino integration for alert triggers.
 **Facial Mesh:** MediaPipe/TensorFlow Lite facial landmark mapping with individual EAR values.
 **Classroom Metrics:** Tracks active student count, class drowsiness percentage, and state counters (Sleeping, Drowsy, Yawning).
 **Hardware Integration:** Real-time alert triggering via Arduino connection on `COM6`.
 
-<img src="C:\Users\KRISHNA_VENI\OneDrive\Documents\IMG_20260912_064703.jpg.jpeg">
+<img width="4160" height="1872" alt="IMG_20260912_064703 jpg" src="https://github.com/user-attachments/assets/ddf469f6-2128-4cbe-aa2d-6e818303e785" />
+
 ![Hardware Setup - Class Status Display]
 *Hardware integration setup featuring an Arduino Uno connected to a 16x2 LCD screen displaying "CLASS STATUS NORMAL", alongside a breadboard wired with indicator components and a buzzer.*
 Low Drowsiness Threshold: The Python vision pipeline (drowsy_prob.py) is calculating an overall classroom drowsiness percentage below the trigger threshold (in the previous screen, class drowsiness was at 0%).
 
-<img src="C:\Users\KRISHNA_VENI\OneDrive\Documents\IMG_20260912_064715.jpg.jpeg">
+![Uploading IMG_20260912_064715.jpg.jpeg…]()
+
 The message "DROWSINESS ALERT!" on the LCD screen indicates that the system has detected fatigue, sleepiness, or distraction exceeding safe limits in the classroom environment.
 This state corresponds to the warning triggers shown in your Python console log (such as Arduino command: ALARM), activating physical safety measures:
 Warning Trigger: The vision script has calculated that drowsiness or sleeping metrics have breached the threshold limit.
