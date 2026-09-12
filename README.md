@@ -49,11 +49,25 @@ For Software:
 
 # Screenshots (Add at least 3)
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+<img src="C:\Users\KRISHNA_VENI\OneDrive\Documents\IMG_20260912_051304.jpg.jpeg">
+The image demonstrates the real-time execution of a Smart Classroom Drowsiness Detection System using facial landmark mesh tracking, 
+eye aspect ratio (EAR) analysis, and Arduino integration for alert triggers.
+**Facial Mesh:** MediaPipe/TensorFlow Lite facial landmark mapping with individual EAR values.
+**Classroom Metrics:** Tracks active student count, class drowsiness percentage, and state counters (Sleeping, Drowsy, Yawning).
+**Hardware Integration:** Real-time alert triggering via Arduino connection on `COM6`.
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+<img src="C:\Users\KRISHNA_VENI\OneDrive\Documents\IMG_20260912_064703.jpg.jpeg">
+![Hardware Setup - Class Status Display]
+*Hardware integration setup featuring an Arduino Uno connected to a 16x2 LCD screen displaying "CLASS STATUS NORMAL", alongside a breadboard wired with indicator components and a buzzer.*
+Low Drowsiness Threshold: The Python vision pipeline (drowsy_prob.py) is calculating an overall classroom drowsiness percentage below the trigger threshold (in the previous screen, class drowsiness was at 0%).
+
+<img src="C:\Users\KRISHNA_VENI\OneDrive\Documents\IMG_20260912_064715.jpg.jpeg">
+The message "DROWSINESS ALERT!" on the LCD screen indicates that the system has detected fatigue, sleepiness, or distraction exceeding safe limits in the classroom environment.
+This state corresponds to the warning triggers shown in your Python console log (such as Arduino command: ALARM), activating physical safety measures:
+Warning Trigger: The vision script has calculated that drowsiness or sleeping metrics have breached the threshold limit.
+Hardware Response: The Arduino receives the alert signal over serial communication, driving the 1602 LCD to display the warning message alongside activating physical indicators like the buzzer or warning LEDs to grab attention.
+
+
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
@@ -69,8 +83,8 @@ For Hardware:
 *Add caption explaining the schematic*
 
 # Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
+<img src="C:\Users\KRISHNA_VENI\OneDrive\Documents\IMG_20260912_065055.jpg.jpeg">
+Components shown 
 
 ![Build](Add photos of build process here)
 *Explain the build steps*
