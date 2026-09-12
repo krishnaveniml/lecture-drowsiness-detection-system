@@ -48,6 +48,8 @@ python cam_tst.py, python drowsiness_prob.py
 For Software:
 
 # Screenshots (Add at least 3)
+<img width="1872" height="4160" alt="IMG_20260912_065055 jpg" src="https://github.com/user-attachments/assets/90777e5b-f603-408d-b115-0e422da7dd7c" />
+
 
 <img src="C:\Users\KRISHNA_VENI\OneDrive\Documents\IMG_20260912_051304.jpg.jpeg">
 The image demonstrates the real-time execution of a Smart Classroom Drowsiness Detection System using facial landmark mesh tracking, 
