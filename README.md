@@ -102,24 +102,11 @@ USB Cable: Connects the Arduino UNO to the computer, providing power and enablin
 
 
 
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+Working Demonstration:
+The system uses a webcam to continuously monitor the user's facial behavior. The detection software analyzes facial characteristics such as eye/blink and drowsiness-related activity and classifies the current state as normal or drowsy. The classification result is communicated to an Arduino UNO, which controls a 16×2 LCD, LED, and buzzer. During normal operation, the LCD displays “CLASS STATUS – NORMAL”. When drowsiness is detected, the LCD changes to “DROWSINESS ALERT!” and the hardware alert indicators are activated. Once the user's condition returns to normal, the system automatically returns to the normal state.
 
-# Additional Demos
-[Add any extra demo materials/links]
-
-## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
