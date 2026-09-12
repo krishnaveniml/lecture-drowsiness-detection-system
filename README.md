@@ -74,17 +74,18 @@ Hardware Response: The Arduino receives the alert signal over serial communicati
 
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+<img width="605" height="468" alt="arc" src="https://github.com/user-attachments/assets/4558bb98-3025-4d0a-b561-18279771cd16" />
 
-For Hardware:
+Hardware Architecture & InterfacingThe circuit diagram illustrates the primary interface configuration for the Arduino Uno microcontroller:Display Interface: $16\times 2$ character LCD controlled over the I2C bus (A4/SDA and A5/SCL), minimizing required digital I/O pins.Visual & Audio Output: Digital pin D9 drives a red LED status indicator in series with a $1\text{ k}\Omega$ pull-down/current-limiting resistor (R1). Pin D10 powers an audible buzzer/transducer connected to common ground.Power Distribution: System components operate off a unified $+5\text{V}$ supply and shared ground line (U1_GND).
+
 
 # Schematic & Circuit
+<img width="671" height="454" alt="schm" src="https://github.com/user-attachments/assets/16c994e5-00cf-49e5-b889-0db95b462692" />
 
+Circuit schematic of the Smart Classroom Drowsiness Detection System. The Arduino UNO serves as the main controller and interfaces with a 16×2 I2C LCD for displaying classroom status, a red LED with a 1 kΩ current-limiting resistor for visual alerts, and a buzzer for audible warnings. The LCD communicates with the Arduino through the I2C SDA and SCL lines, while all components share a common 5V power supply and ground. The circuit provides visual and audible alerts when the detected classroom drowsiness level exceeds the configured threshold.
 *Add caption explaining connections*
 
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
+
 
 # Build Photos
 <img src="C:\Users\KRISHNA_VENI\OneDrive\Documents\IMG_20260912_065055.jpg.jpeg">
